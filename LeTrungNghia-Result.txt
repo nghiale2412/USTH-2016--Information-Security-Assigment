@@ -1,0 +1,72 @@
+Le Trung Nghia - USTHBI5-098
+
+-----------------> IS Assigment Results <-----------------
+
+--------------> Code was written in Matlab <-------------
+
+********************************************* Assigment 1: A5/1 Cipher ***************************************************
+
+---- Program was tested for 
+
+	X = (1010101010101010101)
+	Y = (1100110011001100110011)
+	Z = (11100001111000011110000)
+	n = 10
+
+-> s = 0 1 0 0 0 0 0 1 1 0
+
+** note: from left to right: s0,s1,s2,...
+
+************************************** Assigment 2: Square-and-multiply algorithm ****************************************
+
+---- Program was tested for
+
++) x^e mod n = 96^58 mod 100
+	x = 96
+	e = 58
+	n = 100
+-> result = 36
+
++) x^e mod n = 58^65 mod 94
+	x = 58
+	e = 65
+	n = 94
+-> result = 92
+
++) x^e mod n = 16^57 mod 54
+	x = 16
+	e = 57
+	n = 54
+-> result = 46
+
+************************************************* Assigment 3: RSA *******************************************************
+
+---- Program was tested for 
+
+1. Encryption
+
++) e is given: p = 5, q = 11, e = 3, M = 9
+--> Public key: (N,e) = (55,3)
+--> Private key: d = 27
+--> Encrypted ciphertext C of plaintext M = 9 : C = 14.
+
++) d is given: p = 3, q = 11, d = 7, M = 5
+Enter the value of plaintext M: 5
+--> Public key: (N,e) = (33,3)
+--> Private key: d = 7
+--> Encrypted ciphertext C of plaintext M = 5 : C = 26.
+
+2. Decryption
+
++) e is given: p = 5, q = 11, e = 3, C = 9
+--> Public key: (N,e) = (55,3)
+--> Private key: d = 27
+--> Decrypted plaintext M of ciphertext C = 9 : M = 4
+
++) d is given: p = 3, q = 11, d = 7, C = 5 
+--> Public key: (N,e) = (33,3)
+--> Private key: d = 7
+--> Decrypted plaintext M of ciphertext C = 5 : M = 14.
+
+
+*************************************************** End of file **********************************************************
