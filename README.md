@@ -1,3 +1,5 @@
 # USTH-2017--Information-Security-Assigment
 
-Information Security Assigment - Written in MATLAB
+All assigments of Information Security course in USTH.
+
+Written in MATLAB.
